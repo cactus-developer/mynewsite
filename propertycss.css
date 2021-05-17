@@ -1,0 +1,39 @@
+p {
+font-weight: 900;
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+    color: #423189;
+  font-size: 12px;
+font-size: 3em;
+}
+	
+ input[type=text]  {
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  color: black; 
+   background: #f1f1f1;
+  flex-direction: column;
+display:block;
+margin:0 auto;
+}
+
+.button24 {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: black;
+  border-radius: 6px;
+  background: purple;
+  transition: 0.2s;
+position: relative;
+left: 50%;
+transform: translate(-50%, 0); 
+
+} 
+a.button24:hover { background: purple; }
+a.button24:active { background: purple; }
